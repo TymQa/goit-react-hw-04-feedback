@@ -28,7 +28,6 @@ const App = () => {
   const total = good + neutral + bad;
 
   const countPositiveFeedbackPercentage = () => {
-    // Відсоток позитивних відгуків // good/total*100
     const positivePercentage = (good / total) * 100;
     return Math.round(positivePercentage);
   };
